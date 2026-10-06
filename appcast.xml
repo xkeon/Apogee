@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Apogee</title>
+        <item>
+            <title>1.1</title>
+            <pubDate>Tue, 06 Oct 2026 11:16:02 +0900</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<ul>
+  <li><b>自动检查更新</b>：有新版本时会弹出提醒，确认后自动下载安装。可以在设置里关掉自动检查。</li>
+  <li><b>系统自带壁纸</b>：毛玻璃背景现在支持系统自带的壁纸，动态壁纸会按浅色、深色和时间换成对应的那一帧。</li>
+  <li><b>恢复默认布局可以撤销</b>：和「按类别整理」一样，恢复之后还能找回原来的排列。</li>
+  <li><b>触发角不挡菜单</b>：触发角设在左上或右上角时，冲过去点苹果菜单、控制中心不会误开 Apogee。</li>
+  <li><b>更安全</b>：设置面板与应用之间的通信改为加密并校验；系统更新导致捏合手势不兼容时会自动停用，不会崩溃。</li>
+  <li>壁纸放在「下载」等文件夹而没有权限时，设置里会给出提示。</li>
+</ul>
+<p>需要 macOS 26 或更新版本。</p>
+
+]]></description>
+            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.1/Apogee.dmg" length="3295125" type="application/octet-stream" sparkle:edSignature="+MZafPjAUMce//62cnudjG3pnRiUnB1Be8CLOQqgIdhRbdaHV/FktL8B+9WLzuQ2U5lbKT1xS1XRJPuo0PkSAQ=="/>
+        </item>
+    </channel>
+</rss>
