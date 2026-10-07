@@ -3,23 +3,25 @@
     <channel>
         <title>Apogee</title>
         <item>
-            <title>1.1</title>
-            <pubDate>Tue, 06 Oct 2026 11:16:02 +0900</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <title>1.2</title>
+            <pubDate>Wed, 07 Oct 2026 14:03:47 +0900</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<ul>
-  <li><b>自动检查更新</b>：有新版本时会弹出提醒，确认后自动下载安装。可以在设置里关掉自动检查。</li>
-  <li><b>系统自带壁纸</b>：毛玻璃背景现在支持系统自带的壁纸，动态壁纸会按浅色、深色和时间换成对应的那一帧。</li>
-  <li><b>恢复默认布局可以撤销</b>：和「按类别整理」一样，恢复之后还能找回原来的排列。</li>
-  <li><b>触发角不挡菜单</b>：触发角设在左上或右上角时，冲过去点苹果菜单、控制中心不会误开 Apogee。</li>
-  <li><b>更安全</b>：设置面板与应用之间的通信改为加密并校验；系统更新导致捏合手势不兼容时会自动停用，不会崩溃。</li>
-  <li>壁纸放在「下载」等文件夹而没有权限时，设置里会给出提示。</li>
+  <li><b>更新提醒不再错过</b>：有新版本时，启动台的搜索框下面会出现「更新到 Apogee x.x…」，Dock 图标上也会有标记，点一下就能更新。</li>
+  <li><b>拼音搜索更准</b>：多音字按常用读法也能搜到（「yinyue」→ 音乐、「ditu」→ 地图、「yinhang」→ 银行），ü 可以打成 v（「lvse」→ 绿色）。</li>
+  <li><b>支持「减弱动态效果」</b>：系统里打开后，翻页只平移、呼出时直接淡入、极光背景保持静止。</li>
+  <li><b>旁白（VoiceOver）</b>：能读出文件夹里有几个应用、哪些应用正在运行，右键菜单里的操作也能用；只朗读当前这一页。</li>
+  <li><b>改行数、列数时保留分页</b>：自己分好的页不会被重新铺满，改回去能原样恢复。</li>
+  <li>外置硬盘没接上、或者文件夹暂时没有权限时，里面的应用保留原来的位置，不再被挪到最后。</li>
+  <li>「恢复上次的布局」不会再丢掉整理之后你自己做的调整。</li>
+  <li>修复：从 Dock 打开过一次后触发角失效；拖动图标松手后跳到别的页面；连按修饰键检测在某些情况下一直高频运行、耗电。</li>
+  <li>同一时间只运行一份 Apogee；设置面板在应用更新后会提示重开「系统设置」；登录项批准后不再残留错误提示。</li>
 </ul>
 <p>需要 macOS 26 或更新版本。</p>
-
 ]]></description>
-            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.1/Apogee.dmg" length="3295125" type="application/octet-stream" sparkle:edSignature="+MZafPjAUMce//62cnudjG3pnRiUnB1Be8CLOQqgIdhRbdaHV/FktL8B+9WLzuQ2U5lbKT1xS1XRJPuo0PkSAQ=="/>
+            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.2/Apogee.dmg" length="3368709" type="application/octet-stream" sparkle:edSignature="e63kYYIjUBBd+a3/5QoB0vdpBraZk1oOQ8HhF5E+XT6I4/sk1QrUJhIizju3JbtyLBeahugaygodKMBBxrlsBw=="/>
         </item>
     </channel>
 </rss>
