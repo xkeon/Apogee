@@ -3,21 +3,20 @@
     <channel>
         <title>Apogee</title>
         <item>
-            <title>1.3</title>
-            <pubDate>Thu, 08 Oct 2026 15:38:58 +0900</pubDate>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
+            <title>1.4</title>
+            <pubDate>Fri, 09 Oct 2026 02:55:33 +0900</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<ul>
-  <li><b>设置直接在启动台上打开</b>：点搜索框右边的齿轮圆钮、按 ⌘,、空白处右键或 Dock 图标右键 › 设置…，设置面板就以玻璃面板的样子盖在启动台上，点外面或按 Esc 关闭。分「通用」「布局」「效果」「呼出方式」「应用」几页，改动立即生效。以前放在「系统设置」底部的 Apogee 面板常常显示成一片空白，这次彻底换掉了；升级后旧面板会自动删除，系统设置重开一次后侧边栏里的 Apogee 就会消失。</li>
-  <li>有新版本时的提醒从搜索框下面的一行字，改成了搜索框左边的圆形升级图标，点一下就打开更新窗口。</li>
-  <li><b>布局更安全</b>：刚打开 Apogee、应用列表还没读完时就点「按类别整理」「恢复默认布局」「撤销」或「显示」隐藏的应用，可能把布局清空；现在会等列表读完再执行。</li>
-  <li>布局文件暂时读不出来时，不再用默认布局把它覆盖；遇到更新版本保存的布局，能看懂的部分照用，原文件另存一份。</li>
-  <li>安装包（DMG）本身也加上了 Developer ID 签名。</li>
+  <li><b>毛玻璃背景终于和桌面对上了</b>：用系统自带壁纸时，以前背景常常是一张毫不相干的金门大桥照片。现在会找到桌面上真正显示的画面：航拍壁纸（包括系统默认的「macOS」）按浅色 / 深色模式用对应的那一版；Tahoe、Sequoia、Sonoma 用系统自带的图；纯色壁纸铺对应的颜色，Macintosh 铺浅灰或深灰。</li>
+  <li><b>相册里的照片也能当背景</b>：壁纸是从「照片」里选的时，启动台上会先出一张说明卡片，点「选择照片…」在系统的照片选择器里选中同一张就行。Apogee 只拿到这一张，不需要照片权限。之后也可以点搜索框左边的照片圆钮重新选。</li>
+  <li>壁纸放在「下载」「文稿」「桌面」、iCloud 云盘或外置硬盘里时，系统会问一次能否读取。现在一换壁纸就会立刻问，授权框不会再被启动台挡住；授权框上也写明了用途。拒绝过的话，设置 › 效果里有按钮直接打开隐私设置。</li>
+  <li><b>新增繁体中文、日文、韩文</b>，跟随系统语言自动切换。</li>
 </ul>
 <p>需要 macOS 26 或更新版本。</p>
 ]]></description>
-            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.3/Apogee.dmg" length="2992025" type="application/octet-stream" sparkle:edSignature="iEev7CPjeIy4tukghi/k7cWX7pnu85siNcMHxD1ByQ7J8hIBymGG+QsTq5ax70f4CQ6YsZdDFrO1ZYvEw9klAg=="/>
+            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.4/Apogee.dmg" length="3108858" type="application/octet-stream" sparkle:edSignature="LmIVGu7QasYD6mdW6LY4DaCj/3tzJrisRbdKXJ1AQptcIaTZyROvydXIwwZpR5uK9bJvrnjbnftwcdyx+EccBw=="/>
         </item>
     </channel>
 </rss>
