@@ -3,25 +3,21 @@
     <channel>
         <title>Apogee</title>
         <item>
-            <title>1.2</title>
-            <pubDate>Wed, 07 Oct 2026 14:03:47 +0900</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <title>1.3</title>
+            <pubDate>Thu, 08 Oct 2026 15:38:58 +0900</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<ul>
-  <li><b>更新提醒不再错过</b>：有新版本时，启动台的搜索框下面会出现「更新到 Apogee x.x…」，Dock 图标上也会有标记，点一下就能更新。</li>
-  <li><b>拼音搜索更准</b>：多音字按常用读法也能搜到（「yinyue」→ 音乐、「ditu」→ 地图、「yinhang」→ 银行），ü 可以打成 v（「lvse」→ 绿色）。</li>
-  <li><b>支持「减弱动态效果」</b>：系统里打开后，翻页只平移、呼出时直接淡入、极光背景保持静止。</li>
-  <li><b>旁白（VoiceOver）</b>：能读出文件夹里有几个应用、哪些应用正在运行，右键菜单里的操作也能用；只朗读当前这一页。</li>
-  <li><b>改行数、列数时保留分页</b>：自己分好的页不会被重新铺满，改回去能原样恢复。</li>
-  <li>外置硬盘没接上、或者文件夹暂时没有权限时，里面的应用保留原来的位置，不再被挪到最后。</li>
-  <li>「恢复上次的布局」不会再丢掉整理之后你自己做的调整。</li>
-  <li>修复：从 Dock 打开过一次后触发角失效；拖动图标松手后跳到别的页面；连按修饰键检测在某些情况下一直高频运行、耗电。</li>
-  <li>同一时间只运行一份 Apogee；设置面板在应用更新后会提示重开「系统设置」；登录项批准后不再残留错误提示。</li>
+  <li><b>设置直接在启动台上打开</b>：点搜索框右边的齿轮圆钮、按 ⌘,、空白处右键或 Dock 图标右键 › 设置…，设置面板就以玻璃面板的样子盖在启动台上，点外面或按 Esc 关闭。分「通用」「布局」「效果」「呼出方式」「应用」几页，改动立即生效。以前放在「系统设置」底部的 Apogee 面板常常显示成一片空白，这次彻底换掉了；升级后旧面板会自动删除，系统设置重开一次后侧边栏里的 Apogee 就会消失。</li>
+  <li>有新版本时的提醒从搜索框下面的一行字，改成了搜索框左边的圆形升级图标，点一下就打开更新窗口。</li>
+  <li><b>布局更安全</b>：刚打开 Apogee、应用列表还没读完时就点「按类别整理」「恢复默认布局」「撤销」或「显示」隐藏的应用，可能把布局清空；现在会等列表读完再执行。</li>
+  <li>布局文件暂时读不出来时，不再用默认布局把它覆盖；遇到更新版本保存的布局，能看懂的部分照用，原文件另存一份。</li>
+  <li>安装包（DMG）本身也加上了 Developer ID 签名。</li>
 </ul>
 <p>需要 macOS 26 或更新版本。</p>
 ]]></description>
-            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.2/Apogee.dmg" length="3368709" type="application/octet-stream" sparkle:edSignature="e63kYYIjUBBd+a3/5QoB0vdpBraZk1oOQ8HhF5E+XT6I4/sk1QrUJhIizju3JbtyLBeahugaygodKMBBxrlsBw=="/>
+            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.3/Apogee.dmg" length="2992025" type="application/octet-stream" sparkle:edSignature="iEev7CPjeIy4tukghi/k7cWX7pnu85siNcMHxD1ByQ7J8hIBymGG+QsTq5ax70f4CQ6YsZdDFrO1ZYvEw9klAg=="/>
         </item>
     </channel>
 </rss>
