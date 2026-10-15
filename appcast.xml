@@ -3,20 +3,18 @@
     <channel>
         <title>Apogee</title>
         <item>
-            <title>1.4</title>
-            <pubDate>Fri, 09 Oct 2026 02:55:33 +0900</pubDate>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+            <title>1.4.2</title>
+            <pubDate>Fri, 16 Oct 2026 08:53:49 +0900</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <description><![CDATA[<ul>
-  <li><b>毛玻璃背景终于和桌面对上了</b>：用系统自带壁纸时，以前背景常常是一张毫不相干的金门大桥照片。现在会找到桌面上真正显示的画面：航拍壁纸（包括系统默认的「macOS」）按浅色 / 深色模式用对应的那一版；Tahoe、Sequoia、Sonoma 用系统自带的图；纯色壁纸铺对应的颜色，Macintosh 铺浅灰或深灰。</li>
-  <li><b>相册里的照片也能当背景</b>：壁纸是从「照片」里选的时，启动台上会先出一张说明卡片，点「选择照片…」在系统的照片选择器里选中同一张就行。Apogee 只拿到这一张，不需要照片权限。之后也可以点搜索框左边的照片圆钮重新选。</li>
-  <li>壁纸放在「下载」「文稿」「桌面」、iCloud 云盘或外置硬盘里时，系统会问一次能否读取。现在一换壁纸就会立刻问，授权框不会再被启动台挡住；授权框上也写明了用途。拒绝过的话，设置 › 效果里有按钮直接打开隐私设置。</li>
-  <li><b>新增繁体中文、日文、韩文</b>，跟随系统语言自动切换。</li>
+  <li><b>占用内存更少</b>：同一个应用图标不再存两份，更新过的应用的旧图标会及时清掉；毛玻璃背景的模糊图只占原来的一小部分。</li>
+  <li>刚启动时载入图标更平稳，不再一下子占满处理器。</li>
 </ul>
 <p>需要 macOS 26 或更新版本。</p>
 ]]></description>
-            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.4/Apogee.dmg" length="3108858" type="application/octet-stream" sparkle:edSignature="LmIVGu7QasYD6mdW6LY4DaCj/3tzJrisRbdKXJ1AQptcIaTZyROvydXIwwZpR5uK9bJvrnjbnftwcdyx+EccBw=="/>
+            <enclosure url="https://github.com/xkeon/Apogee/releases/download/v1.4.2/Apogee.dmg" length="3136334" type="application/octet-stream" sparkle:edSignature="0OwSBX3S1KiEgid5DThWbbgXDejqQszawiTESAa5bAnmaypYMxAK6ve7O3bZq4Rvh/a7Vz/8VyA4BB1QKVU5Bg=="/>
         </item>
     </channel>
 </rss>
